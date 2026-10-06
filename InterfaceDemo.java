@@ -1,3 +1,18 @@
+                                                                                    INTERFACE IN JAVA 
+AIM:
+     To write a Java program to demonstrate the use of an interface using the implements keyword.
+ALGORITHM:
+Start the program.
+Create an interface named Animal.
+Declare the sound() method inside the interface.
+Create a class Dog that implements the Animal interface.
+Define the sound() method in the Dog class.
+Create an object of the Dog class.
+Call the sound() method.
+Display the output.
+Stop the program.
+
+PROGRAM:    
 interface Animal {
     void sound();
 }
@@ -14,3 +29,9 @@ public class InterfaceDemo {
         d.sound();
     }
 }
+
+OUTPUT:
+       Dog barks
+
+RESULT:
+        Thus, the Java program to demonstrate the use of an interface was successfully executed.
