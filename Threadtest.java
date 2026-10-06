@@ -1,3 +1,18 @@
+                                                                                       MULTITHREADING IN JAVA
+AIM: 
+      To write a Java program to demonstrate multithreading using Thread, yield(), and sleep() methods.
+ALGORITHM :
+Start the program.
+Create three threads: A, B, and C.
+In thread A, display numbers from 1 to 5 and use yield().
+In thread B, display numbers from 1 to 3 and then terminate the thread.
+In thread C, display numbers from 1 to 5 and use sleep() for 1.5 seconds after displaying 1.
+Start all three threads using the start() method.
+Display the message from the main thread.
+Stop the program.
+
+PROGRAM:
+    
 class A extends Thread {
     public void run() {
         for (int i = 1; i <= 5; i++) {
@@ -57,3 +72,25 @@ public class Threadtest {
         System.out.println("exit from main thread");
     }
 }
+
+ OUTPUT:
+ Start thread A
+exit from main thread
+from thread A i=1
+from thread A i=2
+from thread A i=3
+from thread A i=4
+from thread A i=5
+exit from A
+from thread B j=1
+from thread B j=2
+from thread B j=3
+exit from B
+thread C = 1
+thread C = 2
+thread C = 3
+thread C = 4
+thread C = 5
+
+RESULT:
+       Thus, the Java program to demonstrate multithreading using yield() and sleep() methods was successfully executed.
