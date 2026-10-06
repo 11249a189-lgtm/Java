@@ -1,3 +1,19 @@
+                                                                      ARMSTRONG NUMBER PROGRAM
+AIM:
+     To write a Java program to check whether a given number is an Armstrong number or not.
+Algorithm:
+Start the program.
+Read a number n from the user.
+Store the original number in original.
+Count the number of digits in n.
+Extract each digit of the number.
+Raise each digit to the power of the total number of digits and add the results.
+Compare the calculated sum with the original number.
+If both are equal, display “Armstrong number”.
+Otherwise, display “Not an Armstrong number”.
+Stop the program. 
+    
+Program:
 import java.util.Scanner;
 
 public class ARSTRONG {
@@ -34,3 +50,9 @@ public class ARSTRONG {
         sc.close();
     }
 }
+OUTPUT :
+  Enter a number: 153
+  153 is an Armstrong number.
+RESULT :
+    Thus, the Java program to check whether the given number is an Armstrong number or not was successfully executed and verified.
+    
