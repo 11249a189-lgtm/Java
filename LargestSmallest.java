@@ -1,3 +1,18 @@
+                                                                   LARGEST, SMALLEST AND SUM OF ARRAY ELEMENTS IN JAVA
+AIM:
+     To write a Java program to find the sum, largest, and smallest elements in an array.
+ALGORITHM:
+Start the program.
+Create an array with 10 numbers.
+Initialize sum, min, and max.
+Traverse through all the elements of the array.
+Add each element to sum.
+Compare each element with max and update the largest value.
+Compare each element with min and update the smallest value.
+Display the sum, largest, and smallest numbers.
+Stop the program.
+
+ PROGRAM:   
 public class LargestSmallest {
     public static void main(String[] args) {
 
@@ -24,3 +39,11 @@ public class LargestSmallest {
         System.out.println("Smallest Number in the given array is : " + min);
     }
 }
+
+OUTPUT:
+The sum is : 357
+Largest Number in the given array is : 90
+Smallest Number in the given array is : 9
+
+RESULT:
+       Thus, the Java program to find the sum, largest, and smallest elements of an array was successfully executed.
