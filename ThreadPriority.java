@@ -1,4 +1,17 @@
+                                                                                    THREAD PRIORITY IN JAVA
+AIM:
+     To write a Java program to demonstrate thread priority using setPriority() and getPriority() methods.
+ ALGORITHM:
+Start the program.
+Create three threads: A, B, and C.
+Set the priority of thread A to minimum priority.
+Set the priority of thread C to maximum priority.
+Set the priority of thread B to one level higher than thread A.
+Start all three threads using the start() method.
+Display the messages and numbers from each thread.
+Stop the program.
 
+ PROGRAM:
 import java.io.*;
 class A extends Thread
 {
@@ -44,3 +57,30 @@ System.out.println("start thread B"); threadB.start(); System.out.println("start
 System.out.println("end of main thread");
 }
 }
+
+OUTPUT:
+start thread A
+start thread B
+start thread C
+end of main thread
+Thread C started
+thread c =1
+thread c =2
+thread c =3
+thread c =4
+exit from c
+Thread B started
+from thread B j=1
+from thread B j=2
+from thread B j=3
+from thread B j=4
+exit from B
+Thread A started
+from thread A i=1
+from thread A i=2
+from thread A i=3
+from thread A i=4
+exit from A
+
+ RESULT:
+         Thus, the Java program to demonstrate thread priority using setPriority() and getPriority() methods was successfully executed.
