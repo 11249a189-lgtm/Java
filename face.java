@@ -1,3 +1,19 @@
+                                                               Drawing a Smiley Face Using Java Applet
+AIM:
+     To write a Java program using the Graphics class to draw a human face with eyes, pupils, a nose, ears, and a smiling mouth using different drawing methods.
+ALGORITHM:
+                                                                   Start the program.
+
+Import the required packages: java.awt.*, java.io.*, and java.applet.*.
+Create a class named face that extends the Applet class.
+Override the paint(Graphics g) method.
+Use drawOval() to draw the face, eyes, and ears.
+Use fillOval() to draw the pupils and nose.
+Use fillArc() to draw the smiling mouth.
+Execute the applet to display the face.
+Stop the program.
+
+PROGRAM:    
 import java.awt.*;
 import java.io.*;
 import java.applet.*;
@@ -20,3 +36,8 @@ public class face extends Applet
         g.drawOval(85, 100, 30, 30);
     }
 }
+
+RESULT:
+Thus, the Java applet program was written to draw a human face with eyes, pupils, a nose, ears, and a smiling mouth using the Graphics class.
+
+
