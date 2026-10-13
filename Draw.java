@@ -1,3 +1,23 @@
+                                                              Drawing Basic Shapes Using Java Applet
+
+AIM :
+      To write a Java program using the Graphics class to draw lines, rectangles, filled rectangles, rounded rectangles, filled rounded rectangles, and intersecting lines using an applet.
+    
+Algorithm:
+Start the program.
+Import the java.awt.*, java.io.*, and java.applet.* packages.
+Create a class named Draw that extends the Applet class.
+Override the paint(Graphics g) method.
+Use drawLine() to draw straight lines.
+Use drawRect() to draw a rectangle.
+Use fillRect() to draw a filled rectangle.
+Use drawRoundRect() to draw a rounded rectangle.
+Use fillRoundRect() to draw a filled rounded rectangle.
+Draw two intersecting lines using drawLine().
+Execute the applet to display the shapes.
+Stop the program.
+
+PROGRAM :    
 import java.awt.*;
 import java.io.*;
 import java.applet.*;
@@ -18,3 +38,6 @@ public class Draw extends Applet
         g.drawLine(100, 140, 230, 10);
     }
 }
+
+RESULT:
+        Thus, the Java applet program was written and executed to display straight lines, a rectangle, a filled rectangle, rounded rectangles, and two intersecting lines using the Graphics class.
