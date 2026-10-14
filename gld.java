@@ -1,3 +1,18 @@
+                                                          Implementation of GridLayout in Java
+AIM:
+     To create a Java applet using GridLayout to display ten buttons arranged in 5 rows and 2 columns.
+    
+ALGORITHM:
+Start the program.
+Create a class gld that extends the Applet class.
+Set the layout to GridLayout(5,2).
+Create ten buttons labeled A to J.
+Add all ten buttons to the applet.
+Set the inset spacing to 20 pixels on all sides.
+Display the appLet.
+Stop the program.
+
+PROGRAM:    
 import java.awt.*;
 import java.io.*;
 import java.applet.Applet.*;
@@ -36,3 +51,6 @@ public class gld extends Applet {
         return new Insets(20,20,20,20);
     }
 }
+
+RESULT:
+        Thus, the Java applet program using GridLayout was implemented successfully to display ten buttons in 5 rows and 2 columns.
